@@ -29,8 +29,8 @@
 }
 
 .right{
-    width: 150px;
-    height: 138px;
+    display: flex;
+    align-items: center;
 }
 
 .left img{
@@ -207,8 +207,6 @@ footer{
     position: absolute;
     left: 20px;
     margin: 0;
-    width: 109px;
-    height: 109px;
 }
 
 
@@ -216,10 +214,11 @@ footer{
     flex-grow: 1;
     text-align: center;
     margin: 0;
-    font-size: 96px;
     color: azure;
     -webkit-text-stroke: 1px black;
 }
+
+
 
 .main-menu{
     background-color: #44A252;
@@ -376,8 +375,6 @@ footer{
     position: absolute;
     left: 20px;
     margin: 0;
-    width: 109px;
-    height: 109px;
 }
 
 
@@ -451,7 +448,7 @@ footer{
     flex-grow: 1;
     text-align: center;
     margin: 0;
-    font-size: 96px;
+    font-size: 32px;
     color: azure;
     -webkit-text-stroke: 1px black;
 }
@@ -512,6 +509,30 @@ footer{
 
 /* section */
 
+
+.favorite-food-section{
+    background-color: #EDCF36;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    width: 100%;
+    height: 144px;
+    text-align: center;
+    font-size: 52px;
+}
+
+
+/* grid menu */
+
+
+.favorite-food-grid{
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 62px;
+    margin-left: 50px;
+    padding-top: 135px;
+    padding-bottom: 135px;
+}
 
 
 
